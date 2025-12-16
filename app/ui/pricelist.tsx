@@ -5,7 +5,7 @@ export default function PricingSection() {
   return (
     <section className="full h-auto p-12 bg-gray-100 ">
         <div className="max-w-6xl mx-auto flex gap-4 flex-col border-t pt-20">
-            <h2 className="text-center uppercase font-extrabold text-4xl mt-6 mb-9">pricelist</h2>
+            <h2 className="text-center uppercase font-extrabold md:text-4xl text-2xl mt-6 mb-9">pricelist</h2>
         </div>
       <div className="max-w-6xl md:pt-10 mx-auto grid gap-6 md:grid-cols-3">
         

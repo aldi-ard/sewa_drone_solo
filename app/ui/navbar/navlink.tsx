@@ -56,6 +56,14 @@ const Navlink = () => {
                         Contact
                         </Link>
                     </li>
+                    {/* <li>
+                        <Link
+                         href="/event/perpisahan-sekolah"
+                        className="block py-2 px-3 text-white hover:text-black bg-black border-amber-50 hover:bg-white font-semibold  rounded-sm md:hover:bg-transparant md:p-2 md:hover:border-b"
+                        >
+                        perpisahan sekolah
+                        </Link>
+                    </li> */}
                 </ul>
             </div>
         </>

@@ -6,10 +6,10 @@ export default function PricingSection() {
   return (
     <section className="full h-auto p-12 bg-gray-100 ">
         <div className="max-w-6xl mx-auto flex gap-4 flex-col pt-20">
-            <h2 className="text-center uppercase font-extrabold text-4xl mt-6 mb-9">pricelist</h2>
+            <h2 className="text-center uppercase font-extrabold md:text-4xl text-2xl mt-6 mb-9">pricelist</h2>
         </div>
         <div className="drone aerial max-w-6xl mx-auto border-b mb-5 pb-5">
-            <h2 className="font-semibold capitalize text-xl">paket fotografer, videografer, dan video drone</h2>
+            <h2 className="font-semibold capitalize md:text-xl text-md">paket fotografer, videografer, dan video drone</h2>
         </div>
         <div className="max-w-6xl md:pt-10 mx-auto grid gap-6 md:grid-cols-3">
             <PricingCard
@@ -103,7 +103,7 @@ export default function PricingSection() {
                 "semua file uploud google drive",
             ]}
             />
-                      <PricingCard
+            <PricingCard
             title="Konten Reels"
             price="Rp 1.500.000"
             benefits={[
@@ -187,7 +187,7 @@ export default function PricingSection() {
 
         </div> */}
         <div className="drone aerial max-w-6xl mx-auto border-b mb-5 pt-10 pb-5">
-            <h2 className="font-semibold capitalize text-xl">Paket Wedding</h2>
+            <h2 className="font-semibold capitalize md:text-xl text-md">Paket Wedding</h2>
         </div>
         <div className="max-w-6xl md:pt-10 mx-auto grid gap-6 md:grid-cols-3">
             <PricingCard
@@ -290,8 +290,8 @@ export default function PricingSection() {
             />
             </div>
             <div className="drone aerial max-w-6xl mx-auto border-b mb-5 pt-10 pb-5">
-                <h2 className="font-semibold capitalize text-xl">Engagement Paket</h2>
-                <p>bisa unutk siraman/midoreni/lamaran</p>
+                <h2 className="font-semibold capitalize md:text-xl text-md">Engagement Paket</h2>
+                <p>bisa untuk siraman/midoreni/lamaran</p>
             </div>
             <div className="max-w-6xl md:pt-10 mx-auto grid gap-6 md:grid-cols-3">
                 <PricingCard
@@ -317,8 +317,8 @@ export default function PricingSection() {
                 />
             </div>
             <div className="drone aerial max-w-6xl mx-auto border-b mb-5 pt-10 pb-5">
-                <h2 className="font-semibold capitalize text-xl">Paket perpisahan sekolah</h2>
-                <p>untuk informasi paket perpisahan sekolah bisa decek lebih detail lewat link di bawah ini</p>
+                <h2 className="font-semibold capitalize md:text-xl text-md">Paket perpisahan sekolah</h2>
+                <p className="text-xs md:text-md">untuk informasi paket perpisahan sekolah bisa decek lebih detail lewat link di bawah ini</p>
                 <Link
                 className="text-blue-400"
                 href="https://drive.google.com/file/d/1U11NA2uUxwLngG5NSmOAwBlt95Igi9pJ/view"
@@ -442,7 +442,7 @@ export default function PricingSection() {
                 />
             </div>
             <div className="drone aerial max-w-6xl mx-auto border-b mb-5 pt-10 pb-5">
-                <h2 className="font-semibold capitalize text-xl">Paket Edit Video</h2>
+                <h2 className="font-semibold capitalize md:text-xl text-md">Paket Edit Video</h2>
             </div>
             <div className="max-w-6xl md:pt-10 mx-auto grid gap-6 md:grid-cols-3">
                 <PricingCard

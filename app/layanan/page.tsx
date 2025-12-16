@@ -4,8 +4,8 @@ function page() {
   return (
     <section className=' w-full h-auto p-12 bg-gray-100'>
         <div className='max-w-6xl mx-auto'>
-            <h2 className='text-center uppercase font-extrabold text-4xl mt-24 mb-9'>Layanan Kami</h2>
-            <p className='text-shadow-gray-800 md:mx-40 font-extralight text-center sm:mx-24 text-balance mb-16'>Kami menyediakan layanan shoot drone, videografer, dan fotografer profesional dengan hasil dokumentasi berkualitas tinggi untuk berbagai acara, mulai dari pernikahan, event dan gathering, konten periklanan, dokumentasi proyek konstruksi, hingga profil perusahaan. </p>
+            <h2 className='text-center uppercase font-extrabold md:text-4xl text-3xl mt-24 mb-9'>Layanan Kami</h2>
+            <p className='text-shadow-gray-800 md:mx-40 font-extralight text-center sm:mx-24 text-sm md:text-base text-balance mb-6 md:mb-16'>Kami menyediakan layanan shoot drone, videografer, dan fotografer profesional dengan hasil dokumentasi berkualitas tinggi untuk berbagai acara, mulai dari pernikahan, event dan gathering, konten periklanan, dokumentasi proyek konstruksi, hingga profil perusahaan. </p>
             <div className="flex flex-col md:flex-row sm:flex-wrap w-full sm:gap-0 md:justify-center h-auto pt-8 items-center mx-auto md:gap-8 flex-wrap">
               <Card
                   title='Sewa Drone'
@@ -18,9 +18,9 @@ function page() {
                   image='/dokumentasi-preview.png'
               />
               <Card
-                  title='Periklanan dan Sosial Media'
+                  title='Iklan Sosial Media'
                   description='Tingkatkan kualitas branding Anda dengan konten visual yang menarik perhatian. Kami menawarkan layanan foto dan video khusus untuk sosial media dan iklan, memberikan hasil yang kreatif dan berkualitas tinggi untuk memperkuat daya tarik bisnis Anda di mata pelanggan.'
-                  image='/ vidiomarketing.jpg'
+                  image='/vidiomarketing.jpg'
               />
               <Card
                   title='Dokumentasi Pernikahan'
@@ -28,7 +28,7 @@ function page() {
                   image='/wedding.jpg'
               />
               <Card
-                  title='Pemetaan dan Survey Lahan'
+                  title='Pemetaan & Survey Lahan'
                   description='Menghasilkan akurasi dan efisiensi untuk perencanaan proyek konstruksi, pengukuran lahan, dan pengolahan data yang presisi. Kami menghasilkan peta dan visualisasi lahan yang detail. Sesuai untuk Anda yang memerlukan data cepat, akurat, dan hemat biaya dibandingkan metode pemetaan konvensional.'
                   image='/DroneMapping.jpg'
               />

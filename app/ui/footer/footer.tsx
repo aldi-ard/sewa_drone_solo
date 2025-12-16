@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Form from "../form"
+import WhatsAppButton from "../forms/FormWa"
 
 const Footer = () => {
     return(
@@ -57,14 +59,9 @@ const Footer = () => {
                 <div className="">
                     <h4 className="mb-8 text-xl font-semibold text-white">Newsleter</h4>
                     <p className="text-gray-400">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium asperiores eaque facilis, consequatur voluptate temporibus?
+                        kirim pesan langsung ke whatsapp kami
                     </p>
-                    <form action="" className="mt-5">
-                        <div className="mb-5">
-                            <input type="text" name="email" id="email" className="w-full p-3 rounded bg-white" placeholder="johndou@gmail.com"/>
-                        </div>
-                        <button className="bg-orange-400 p-3 font-bold text-white w-full text-center rounded-sm hover:bg-orange-500">Kirim</button>
-                    </form>
+                    <WhatsAppButton/>
                 </div>
             </div>
           </div>
