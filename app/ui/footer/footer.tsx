@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Form from "../form"
 import WhatsAppButton from "../forms/FormWa"
 
 const Footer = () => {

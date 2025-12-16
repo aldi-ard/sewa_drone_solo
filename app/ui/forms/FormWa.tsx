@@ -6,9 +6,9 @@ import { useState } from "react";
 export default function WhatsAppButton() {
   const [message, setMessage] = useState("");
 
-  const phoneNumber = "6288802074999";
+//   const phoneNumber = "6288802074999";
 
-  const waLink = `https://api.whatsapp.com/send/?phone=%2${phoneNumber}&text=${encodeURIComponent(
+  const waLink = `https://wa.me/6288802074999?text=WEB:${encodeURIComponent(
     message
   )}`;
 
