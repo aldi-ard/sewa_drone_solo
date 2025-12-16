@@ -28,7 +28,7 @@ const Navbar = ()  => {
     return(
         <div 
         className={`fixed top-0 w-full  shadow-sm z-20 ${
-        colorChange ? 'bg-white shadow-md transition-all' : 'bg-linier-to-r from-white to-gray-700'
+        colorChange ? 'bg-white shadow-md transition-all' : 'md:bg-linier-to-r from-white to-gray-700'
         }`}
         >
             <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between p-5">

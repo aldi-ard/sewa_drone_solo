@@ -9,7 +9,7 @@ const Navlink = () => {
     const  [open, setOpen] = useState(false)
     return(
         <>
-            <button onClick={() => setOpen(!open)} className="inline-flex items-center p-2 justify-center text-sm text-gray-500 raounded-md md:hidden hover:bg-gray-100">
+            <button onClick={() => setOpen(!open)} className="inline-flex items-center p-2 justify-center text-sm text-gray-500 bg-transparent raounded-md md:hidden hover:bg-tranparant">
                 {!open ? <IoMenu className="size-8 text-black"/> : <IoClose className="size-8 text-black" />}
             </button>
             <div className={clsx("w-full md:block md:w-auto", {
@@ -45,7 +45,7 @@ const Navlink = () => {
                          href="/portofolio"
                         className="block py-2 px-3 text-black hover:bg-transparant rounded-sm md:hover:bg-transparant md:p-0 md:hover:border-b"
                         >
-                        Porofolio
+                        Portofolio
                         </Link>
                     </li>
                     <li>

@@ -1,4 +1,5 @@
 import Card from './cards/cardLayanan'
+import Link from 'next/link'
 
 function Layanan() {
   return (
@@ -24,6 +25,11 @@ function Layanan() {
               />
             </div>
         </div>
+        <div className="max-w-6xl mx-auto items-center flex mt-16 ">
+            <button className="mx-auto bg-black md:py-6 md:px-8 capitalize  py-2 px-4 rounded-4xl font-semibold text-white hover:bg-blue-600 hover:shadow-md">
+            <Link href="/layanan" className="h-full w-full">semua layanan</Link>    
+          </button>
+      </div>
     </section>
   )
 }

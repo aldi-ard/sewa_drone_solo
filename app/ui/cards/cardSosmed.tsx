@@ -2,23 +2,21 @@ import Image from "next/image"
 
 type CardProps = {
   title: string
-  image?: string
+  logo: string
   description: string
 }
 
-export default function Card({ title, description, image }: CardProps) {
+
+function cardSosmed({title, logo, description} : CardProps) {
   return (
     <div className="max-w-90 p-6 min-h-96 h-full rounded-2xl shadow-xl bg-white flex flex-col gap-4 items-start mt-4">
       
       <div className="relative h-70 w-full">
-        {image && (
-          <Image
-            src={image}
-            alt={title + 'image'}
-            fill
-            className="object-cover object-center rounded-2xl"
-          />
-        )}
+            <Image
+            src={logo}
+            alt={{title} + 'image'}
+            className="w-full"
+            ></Image>
       </div>
 
       <div className="w-full text-xl font-semibold text-center">
@@ -32,3 +30,5 @@ export default function Card({ title, description, image }: CardProps) {
     </div>
   )
 }
+
+export default cardSosmed

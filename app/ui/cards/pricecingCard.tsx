@@ -1,6 +1,6 @@
 type PricingCardProps = {
   title: string
-  price: string
+  price?: string
   benefits: string[]
 }
 

@@ -49,7 +49,7 @@ export default function PricingSection() {
 
       </div>
       <div className="max-w-6xl mx-auto items-center flex mt-16 ">
-        <button className="mx-auto bg-blue-500 md:py-6 md:px-8 capitalize  py-2 px-4 rounded-4xl font-semibold text-white hover:bg-blue-600 hover:shadow-md">
+        <button className="mx-auto bg-black md:py-6 md:px-8 capitalize  py-2 px-4 rounded-4xl font-semibold text-white hover:bg-blue-600 hover:shadow-md">
             <Link href="/pricelist" className="h-full w-full">pricelist lengkap</Link>    
         </button>
       </div>
