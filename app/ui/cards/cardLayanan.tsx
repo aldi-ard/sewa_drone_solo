@@ -8,7 +8,7 @@ type CardProps = {
 
 export default function Card({ title, description, image }: CardProps) {
   return (
-    <div className="w-86 p-6 min-h-96 h-full rounded-2xl shadow-xl bg-white flex flex-col gap-4 items-start mt-4">
+    <div className="w-full p-6 min-h-96 h-full rounded-2xl shadow-xl bg-white flex flex-col gap-4 items-start mt-4">
       
       <div className="relative h-70 w-full">
         {image && (
