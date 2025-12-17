@@ -34,26 +34,26 @@ export default function TestimoniSection() {
           </blockquote>
           <blockquote className="bg-white/60 backdrop-blur-md p-6 rounded-xl shadow border border-gray-100 animate-fade-up delay-300">
             <p className="text-gray-700 mb-4">
-              “Harga ramah tapi kualitas kelas atas!”
+              “ngebantu banget buat bikin iklan umkm!”
             </p>
             <footer className="font-semibold text-gray-900">
-              Fahmi • Freelancer
+              husna • UMKM
             </footer>
           </blockquote>
           <blockquote className="bg-white/60 backdrop-blur-md p-6 rounded-xl shadow border border-gray-100 animate-fade-up delay-300">
             <p className="text-gray-700 mb-4">
-              “Harga ramah tapi kualitas kelas atas!”
+              “pilihan cocok buat prewed sampe wedding sekaligus!”
             </p>
             <footer className="font-semibold text-gray-900">
-              Fahmi • Freelancer
+              dea chintya 
             </footer>
           </blockquote>
           <blockquote className="bg-white/60 backdrop-blur-md p-6 rounded-xl shadow border border-gray-100 animate-fade-up delay-300">
             <p className="text-gray-700 mb-4">
-              “Harga ramah tapi kualitas kelas atas!”
+              “traveling jadi lebih nyaman tanpa mikir dukomentasi!”
             </p>
             <footer className="font-semibold text-gray-900">
-              Fahmi • Freelancer
+              Ardi 
             </footer>
           </blockquote>
         </div>

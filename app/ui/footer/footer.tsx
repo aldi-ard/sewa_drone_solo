@@ -11,7 +11,7 @@ const Footer = () => {
                         <h1 className="text-white font-extrabold text-2xl">Drone Solo</h1>
                     </Link>
                     <p className="text-gray-400">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius totam ullam quas voluptatibus vero.
+                        bukan sekedar file dengan format jpeg atau m4, tapi bagaimana kita menyimpan momen, setiap perjalan hidup kita, setiap tawa yang menyapa, setiap rasa yang tersisa, yang belum tentu kita ulang, saat semua telah usang
                     </p>
                 </div>
                 <div className="">
@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="">
-                    <h4 className="mb-8 text-xl font-semibold text-white">Newsleter</h4>
+                    <h4 className="mb-8 text-xl font-semibold text-white">Contact</h4>
                     <p className="text-gray-400">
                         kirim pesan langsung ke whatsapp kami
                     </p>
