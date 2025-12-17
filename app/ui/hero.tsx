@@ -22,7 +22,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-5 flex-col  md:flex-row">
             <Link href="/contact" className="bg-blue-500 border border-gray-500 text-white hover:bg-transparent hover:text-white hover:border-white py-2 px-4 md:px-8 text-md font-semibold hover:scale-105 hover:shadow-lg rounded-4xl capitaleze">Hubungi Kami</Link>
-            <Link href="/Pricelist" className="bg-tansparant border border-white text-white hover:bg-transparent hover:text-white hover:border-white py-2 px-4 md:px-8 text-md font-semibold hover:scale-105 hover:shadow-lg rounded-4xl capitaleze">cek pricelist</Link>
+            <Link href="/pricelist" className="bg-tansparant border border-white text-white hover:bg-transparent hover:text-white hover:border-white py-2 px-4 md:px-8 text-md font-semibold hover:scale-105 hover:shadow-lg rounded-4xl capitaleze">cek pricelist</Link>
           </div>
         </div>
       </div>
