@@ -41,7 +41,7 @@ function page() {
                 <CardSosmed
                   logo = {<SiYoutube/>}
                   description = "untuk hasil dengan durasi yang panjang, semua kami update ke youtube"
-                  title = "tiktok"
+                  title = "youtube"
                   color="text-red-500"
                   bgcolor="bg-red-500"
                   link="https://www.youtube.com/@drone_solo_"
