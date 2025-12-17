@@ -40,16 +40,16 @@ const Footer = () => {
                             <h4 className="mb-8 text-xl font-semibold text-white">More</h4>
                             <ul className="list-item space-y-5 text-gray-400">
                                 <li>
-                                    <Link href="/perpisahan-sekolah">Perpisahan Sekolah</Link>
+                                    <Link href="https://drive.google.com/file/d/1U11NA2uUxwLngG5NSmOAwBlt95Igi9pJ/view">Perpisahan Sekolah</Link>
                                 </li>
                                 <li>
-                                    <Link href="#">Whatsapp</Link>
+                                    <Link href="https://wa.me/6288802074999">Whatsapp</Link>
                                 </li>
                                 <li>
-                                    <Link href="#">Instagram</Link>
+                                    <Link href="https://www.instagram.com/drone_solo/">Instagram</Link>
                                 </li>
                                 <li>
-                                    <Link href="#">Email</Link>
+                                    <Link href="https://www.tiktok.com/@drone_solo">Tiktok</Link>
                                 </li>
                             </ul>
                         </div>
