@@ -13,7 +13,7 @@ type CardProps = {
 
 function CardSosmed({title, logo, description, color, bgcolor, link,cta}: CardProps) {
   return (
-    <div className="max-w-90 w-76 p-6 min-h-4 rounded-2xl shadow-xl bg-white flex flex-col gap-4 items-center mt-4">
+    <div className="max-w-90 md:w-76 p-6 min-h-4 rounded-2xl shadow-xl bg-white flex flex-col gap-4 items-center mt-4">
       <div className={`relative h-16  ${color}`} >
         {logo}
       </div>

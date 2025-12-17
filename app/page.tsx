@@ -1,6 +1,8 @@
+import ClientsSection from "./ui/client";
 import Hero from "./ui/hero";
 import Layanan from "./ui/layanan";
 import Pricelist from "./ui/pricelist";
+import TestimoniSection from "./ui/testimoni";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero/>
       <Layanan/>
       <Pricelist/>
+      <TestimoniSection/>
+      <ClientsSection/>
     </>
   );
 }

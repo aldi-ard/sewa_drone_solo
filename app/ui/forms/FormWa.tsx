@@ -8,7 +8,7 @@ export default function WhatsAppButton() {
 
 //   const phoneNumber = "6288802074999";
 
-  const waLink = `https://wa.me/6288802074999?text=WEB:${encodeURIComponent(
+  const waLink = `https://wa.me/6288802074999?text=${encodeURIComponent(
     message
   )}`;
 
@@ -23,8 +23,13 @@ export default function WhatsAppButton() {
             onChange={(e) => setMessage(e.target.value)}
         />
         </div>
-        <Link href={waLink}>
-            <button className="bg-orange-400 p-3 font-bold text-white w-full text-center rounded-sm hover:bg-orange-500">Kirim</button>
+        <Link
+          href={waLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-orange-400 p-3 font-bold text-white w-full text-center rounded-sm hover:bg-orange-500"
+        >
+          Kirim
         </Link>
     </form>
 
