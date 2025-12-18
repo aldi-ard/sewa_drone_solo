@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="relative h-screen text-white overflow-hidden pb-24 mb:4 md:pb=8">
         <div className="absolute inset-0" > 
             <Image
-             src={'/bcg.jpg'}
+             src='/bcg.jpg'
              alt="hero-jpg"
              priority
              quality={90}
