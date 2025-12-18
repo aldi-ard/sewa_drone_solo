@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="relative h-screen text-white overflow-hidden pb-24 mb:4 md:pb=8">
         <div className="absolute inset-0" > 
             <Image
-             src='/bcg.jpg'
+             src='/bcg.JPG'
              alt="hero-jpg"
              priority
              quality={90}
@@ -21,7 +21,7 @@ const Hero = () => {
             Dokumentasi Drone | Event | Company Profile | Perpisahan Sekolah | Wedding <br />| Pemetaan Lahan | Video Marketing
           </p>
           <div className="flex gap-5 flex-col  md:flex-row">
-            <Link href="/contact" className="bg-fuchsia-500 border border-gray-500 text-white hover:bg-transparent hover:text-white hover:border-white py-4 px-4 md:px-8 text-md font-extrabold hover:scale-105 hover:shadow-lg rounded-4xl capitaleze">Hubungi Kami</Link>
+            <Link href="/contact" className="bg-fuchsia-600 border border-gray-500 text-white hover:bg-transparent hover:text-white hover:border-white py-4 px-4 md:px-8 text-md font-extrabold hover:scale-105 hover:shadow-lg rounded-4xl capitaleze">Hubungi Kami</Link>
             <Link href="/pricelist" className="bg-white border border-white text-black hover:bg-transparent hover:text-white hover:border-white py-4 px-4 md:px-8 text-md  hover:scale-105 hover:shadow-lg rounded-4xl capitaleze font-extrabold">Pricelist</Link>
           </div>
         </div>
