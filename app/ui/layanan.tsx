@@ -5,7 +5,7 @@ function Layanan() {
   return (
     <section className=' w-full h-auto p-12 bg-gray-100'>
         <div className='max-w-7xl mx-auto'>
-            <h2 className='text-center uppercase font-extrabold md:text-4xl text-2xl mt-6 mb-9'>Layanan Kami</h2>
+            <h2 className='text-center uppercase font-extrabold md:text-5xl text-2xl mt-6 mb-9'>Layanan Kami</h2>
             <p className='text-shadow-gray-800 md:mx-40 font-extralight text-center text-sm md:text-base sm:mx-24 text-balance mb-16'>Kami menyediakan layanan drone, fotografi, videografi, dan editing profesional untuk menghasilkan dokumentasi visual berkualitas tinggi bagi berbagai kebutuhan. </p>
             <div className="grid md:grid-cols-3 gap-2 sm:flex-wrap w-full s  h-auto pt-8 items-center mx-auto justify-around ">
               <Card

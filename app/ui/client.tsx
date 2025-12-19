@@ -4,7 +4,7 @@ export default function ClientsSection() {
   return (
     <section id="client" className="py-20 bg-white">
       <div className="container max-w-5xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-12">Our Clients</h2>
+        <h2 className="text-5xl font-bold mb-12">Our Clients</h2>
 
         {/* Grid 1 = 4 logos */}
         <div className="grid grid-cols-2  sm:grid-cols-4 gap-8 mb-12 items-center justify-center">
