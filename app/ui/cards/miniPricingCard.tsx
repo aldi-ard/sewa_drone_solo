@@ -5,14 +5,13 @@ type PricingCardProps = {
   price?: string
   benefits: string[]
   defaultTab?: string
-  jenis:string
+  jenis?:string
 }
 
 export default function PricingCard({
   title,
   price,
   benefits,
-  jenis
 }: PricingCardProps) {
   return (
     <div className="w-full max-w-80 min-h-30 rounded-2xl border bg-white p-6 shadow-sm flex flex-col gap-4">
