@@ -129,7 +129,8 @@ const PricingPage = () => {
       content: (
         <div className="flex flex-wrap justify-center gap-6">
             <PricingCard
-            title="paket lengkap basic"
+            title="basic"
+            jenis="paket lengkap"
             price="Rp 3.500.000"
             benefits={[
                 "4 jam",
@@ -140,7 +141,8 @@ const PricingPage = () => {
             ]}
             />
             <PricingCard
-            title="paket Lengkap advance" 
+            title="advance"
+            jenis="paket lengkap" 
             price="Rp 4.500.000"
             benefits={[
                 "8 jam",
@@ -161,6 +163,7 @@ const PricingPage = () => {
             <PricingCard
             title="Company Profile"
             price="Rp 5.000.000"
+            jenis="paket"
             benefits={[
                 "1 drone pilot, 2 videografer",
                 "8 jam",
@@ -186,6 +189,7 @@ const PricingPage = () => {
         <div className="flex flex-wrap justify-center gap-6">
           <PricingCard
           title="Basic"
+          jenis="Perpisahan Sekolah"
           price="Rp 2.500.000"
           benefits={[
               "1 videografer",
@@ -197,6 +201,7 @@ const PricingPage = () => {
           />
           <PricingCard
           title="Brozee"
+          jenis="Perpisahan Sekolah"
           price="Rp 3.000.000"
           benefits={[
               "1 videografer",
@@ -208,6 +213,7 @@ const PricingPage = () => {
           />
           <PricingCard
           title="silver"
+          jenis="Perpisahan Sekolah"
           price="Rp 3.500.000"
           benefits={[
               "unlimited foto",
@@ -221,6 +227,7 @@ const PricingPage = () => {
           />
           <PricingCard
           title="Gold"
+          jenis="Perpisahan Sekolah"
           price="Rp 4.000.000"
           benefits={[
               "unlimited foto",
@@ -234,6 +241,7 @@ const PricingPage = () => {
           />
           <PricingCard
           title="Diamond"
+          jenis="Perpisahan Sekolah"
           price="Rp 7.500.000"
           benefits={[
               "unlimited foto",
@@ -249,6 +257,7 @@ const PricingPage = () => {
           ]}
           />
           <PricingCard
+          jenis="Perpisahan Sekolah"
           title="Platinum"
           price="Rp 5.000.000"
           benefits={[
@@ -267,6 +276,7 @@ const PricingPage = () => {
           />
           <PricingCard
           title="Premium"
+          jenis="Perpisahan Sekolah"
           price="Rp 10.000.000"
           benefits={[
               "unlimited foto",
@@ -284,6 +294,7 @@ const PricingPage = () => {
           />
           <PricingCard
           title="Premium"
+          jenis="Perpisahan Sekolah"
           price="Rp 15.000.000"
           benefits={[
               "unlimited foto",
@@ -309,6 +320,7 @@ const PricingPage = () => {
         <div className="flex flex-wrap justify-center gap-6">
           <MiniPricingCard
             title="paket 1"
+            jenis="Editing"
             price="Rp 300.000"
             benefits={[
                 " durasi 1 menit",
@@ -316,6 +328,7 @@ const PricingPage = () => {
             />
             <MiniPricingCard
             title="paket 2"
+            jenis="Editing"
             price="Rp 500.000 "
             benefits={[
                 " durasi 2-3 menit ",
@@ -323,6 +336,7 @@ const PricingPage = () => {
             />
             <MiniPricingCard
             title="paket 2"
+            jenis="Editing"
             price="Rp 750.000"
             benefits={[
                 " durasi 4-5 menit",
@@ -330,6 +344,7 @@ const PricingPage = () => {
             />
             <MiniPricingCard
             title="paket 4"
+            jenis="Editing"
             price="Rp 1.000.000"
             benefits={[
                 " durasi 5-7 menit",

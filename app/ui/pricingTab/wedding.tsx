@@ -105,7 +105,7 @@ const WeddingSubTabs = () => {
       content: (
         <div className="flex flex-wrap justify-center gap-6">
           <PricingCard
-            jenis="Pre-Wedding"
+            jenis=""
             title="Pre-Wedding package"
             price="Rp 3.500.000"
             benefits={[
@@ -131,7 +131,7 @@ const WeddingSubTabs = () => {
       content: (
         <div className="flex flex-wrap justify-center gap-6">
           <PricingCard
-            jenis="Pre-Wedding"
+            jenis="Engagment"
             title="Foto"
             price="Rp 1.500.000"
             benefits={[
@@ -143,7 +143,7 @@ const WeddingSubTabs = () => {
             ]}
             />
             <PricingCard
-            jenis="Pre-Wedding"
+            jenis="Engagment"
             title="Video"
             price="Rp 1.500.000"
             benefits={[
@@ -162,7 +162,7 @@ const WeddingSubTabs = () => {
       content: (
         <div className="flex flex-wrap  justify-center gap-6">
           <MiniPricingCard
-            jenis="Additional"
+            jenis="[Additional]"
             title="Cetak album costum cover +100 foto 4R"
             price="Rp 500.000"
             benefits={[
@@ -170,7 +170,7 @@ const WeddingSubTabs = () => {
             ]}
             />
             <MiniPricingCard
-            jenis="Additional"
+            jenis="[Additional]"
             title="Cetak 16R + bingkai"
             price="Rp 300.000"
             benefits={[
@@ -178,28 +178,28 @@ const WeddingSubTabs = () => {
             ]}
             />
             <MiniPricingCard
-            jenis="Additional"
+            jenis="[Additional]"
             title="Copy File Flashdisk"
             price="Rp 200.000"
             benefits={[
             ]}
             />
             <MiniPricingCard
-            jenis="Additional"
+            jenis="[Additional]"
             title="Copy File mentah"
             price="Rp 300.000"
             benefits={[
             ]}
             />
             <MiniPricingCard
-            jenis="Additional"
+            jenis="[Additional]"
             title="Video Shooting"
             price="Rp 2.500.000"
             benefits={[
             ]}
             />
             <MiniPricingCard
-            jenis="Additional"
+            jenis="[Additional]"
             title="Akad/Pemberkatan terpisah"
             price="Rp 1.000.000"
             benefits={[
