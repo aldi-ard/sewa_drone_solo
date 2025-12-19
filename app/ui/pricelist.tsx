@@ -75,7 +75,7 @@ const PricingPage = () => {
     },
     {
       key: "Konten Reels" as PricingTab,
-      label: "Kontent Reels",
+      label: "Konten Reels",
       content: (
         <div className="flex flex-wrap justify-center gap-6">
           <PricingCard
