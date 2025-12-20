@@ -28,10 +28,10 @@ const Navbar = ()  => {
     return(
         <div 
         className={`fixed top-0 w-full  shadow-sm z-20 ${
-        colorChange ? 'bg-white shadow-md transition-all' : 'md:bg-transparant text-black '
+        colorChange ? 'bg-white shadow-md transition-all' : 'md:bg-transparent text-black '
         }`}
         >
-            <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between p-5">
+            <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between p-4">
                 <Logo/>
                 <Navlink/>
             </div>

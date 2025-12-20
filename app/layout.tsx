@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./ui/navbar/navbar";
 import Footer from "./ui/footer/footer";
+import "swiper/swiper.css"
 
 
 const geistSans = Geist({
@@ -18,6 +19,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sewa Drone Solo",
   description: "jasa vidiografer, fotografer, dan vidio drone di area solo dan indonesia",
+  icons:{
+    icon : "../drone_solo.png",
+    shortcut : "../drone_solo.png",
+    apple : "../drone_solo.png"
+  }
 };
 
 export default function RootLayout({

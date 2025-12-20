@@ -9,7 +9,7 @@ const Hero = () => {
              src='/bcg.JPG'
              alt="hero-jpg"
              priority
-             quality={90}
+             quality={90} 
              sizes="(max-width:768px)100vh 1920px"
              fill className="object-cover object-center w-full h-full"
              />

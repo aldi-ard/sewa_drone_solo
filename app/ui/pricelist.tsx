@@ -356,8 +356,9 @@ const PricingPage = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto py-20">
-      <h2 className="text-3xl font-bold mb-8 text-center">
+    <section className="w-full bg-gray-100">
+    <div className="max-w-6xl mx-auto py-20 ">
+      <h2 className="text-5xl pb-5 font-bold mb-8 text-center">
         Paket Harga
       </h2>
 
@@ -365,7 +366,9 @@ const PricingPage = () => {
         tabs={pricingTabs}
         defaultTab={"Drone"}
       />
-    </div>
+    </div>  
+    </section>
+    
   );
 };
 
