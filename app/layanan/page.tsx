@@ -1,11 +1,12 @@
 import Card from "../ui/cards/cardLayanan"
+import { ITCAvanatGardeStd } from "../style/fonts"
 
 function page() {
   return (
     <section className=' w-full h-auto p-12 bg-white'>
         <div className='max-w-6xl mx-auto'>
             <h2 className='text-center uppercase font-extrabold md:text-4xl text-3xl mt-24 mb-9'>Layanan Kami</h2>
-            <p className='text-gray-800 md:mx-40 font-medium text-center sm:mx-24 text-sm md:text-base text-balance mb-6 md:mb-16'>Kami menyediakan layanan drone, fotografi, videografi, dan editing profesional untuk menghasilkan dokumentasi visual berkualitas tinggi bagi berbagai kebutuhan. </p>
+            <p className={`text-gray-800 ${ITCAvanatGardeStd.className} md:mx-40 font-medium text-center sm:mx-24 text-sm md:text-base text-balance mb-6 md:mb-16`}>Kami menyediakan layanan drone, fotografi, videografi, dan editing profesional untuk menghasilkan dokumentasi visual berkualitas tinggi bagi berbagai kebutuhan. </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
               <Card
                   title='Dokumentasi Event'

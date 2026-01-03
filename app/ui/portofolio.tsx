@@ -44,10 +44,10 @@ const images = [
 
 function Portofolio() {
   return (
-    <section className=' w-full h-auto p-12 bg-gray-100'>
+    <section className=' w-full h-auto p-12 md:mb-16 bg-gray-100'>
         <div className='max-w-6xl mx-auto'>
             <div className="header text-center pb-20">
-                <h1 className='text-5xl font-bold'>Portofolio</h1>
+                <h1 className='md:text-5xl text-2xl font-bold'>Portofolio</h1>
             </div>
             <div className="flex flex-col md:flex-row justify-center gap-8 items-center">
               <video className='w-80 rounded-2xl ' autoPlay muted controls src="/portofolio/video1.mp4"></video>

@@ -1,6 +1,7 @@
 import CardSosmed from "../ui/cards/cardSosmed";
-import { SiGmail, SiTiktok, SiYoutube } from "react-icons/si";
+import { SiTiktok, SiYoutube } from "react-icons/si";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
+import { ITCAvanatGardeStd, ITCAvanatGardeStdLight } from "../style/fonts";
 
 function page() {
   return (
@@ -8,7 +9,7 @@ function page() {
           <div className='max-w-6xl mx-auto mt-20'>
             <div className="header w-full h-auto mx-auto ">
               <h1 className='md:text-4xl text-2xl font-extrabold text-center pb-5'>Social Media</h1>
-              <p className='text-shadow-gray-800 md:mx-40 font-extralight text-center pt-2 sm:mx-24 text-sm md:text-base text-balance mb-6 md:mb-4'>Kami aktif di berbagai social media, jika anda tetarik dengan jasa kami atau ingin berkomunikasi lebih lanjut silahkan hubungi kami melalui media sosial di bawah ini ✌️</p>
+              <p className={`text-shadow-gray-800 md:mx-40 font-extralight text-center pt-2 sm:mx-24 text-sm md:text-base text-balance mb-6 md:mb-4 ${ITCAvanatGardeStdLight.className}`}>Kami aktif di berbagai social media, jika anda tetarik dengan jasa kami atau ingin berkomunikasi lebih lanjut silahkan hubungi kami melalui media sosial di bawah ini ✌️</p>
             </div>
             <div className="text- w-full flex md:flex-row flex-col flex-wrap items-center md:mt-12 mt-4 justify-around text-6xl border-t-gray-400 md:pt-12 border-t">
                 <CardSosmed
@@ -32,7 +33,7 @@ function page() {
                 <CardSosmed
                   logo = {<SiTiktok/>}
                   description = "lihat berbagai hasil project kami di tiktok"
-                  title = "tiktok"
+                  title = "Tiktok"
                   color="text-black"
                   bgcolor="bg-black"
                   link="https://www.tiktok.com/@drone_solo"
@@ -41,7 +42,7 @@ function page() {
                 <CardSosmed
                   logo = {<SiYoutube/>}
                   description = "untuk hasil dengan durasi yang panjang, semua kami update ke youtube"
-                  title = "tiktok"
+                  title = "Youtube"
                   color="text-red-500"
                   bgcolor="bg-red-500"
                   link="https://www.youtube.com/@drone_solo_"

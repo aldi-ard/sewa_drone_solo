@@ -1,13 +1,12 @@
 @import "tailwindcss";
-html {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif;
-}
 
+html {
+  font-family:Myfont
+}
+/* // Posted by Dan Abramov, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-01-02, License - CC BY-SA 4.0 */
+
+
+.myfont {
+    font-family: Myfont;
+}

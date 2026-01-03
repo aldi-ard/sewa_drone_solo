@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { ITCAvanatGardeStdBold, ITCAvanatGardeStd } from "../style/fonts"
 
 const Hero = () => {
     return(
@@ -16,8 +17,8 @@ const Hero = () => {
         </div>
         <div className="absolute inset-0 bg-linear-to-t from-bg-transparent to-gray-600 opacity-100"></div>
         <div className="relative flex flex-col justify-start items-center h-full mt-56 text-center md:mt-28 md:pt-30">
-          <h1 className="text-2xl md:text-5xl text-balance font-extrabold leading-tight text-white text-shadow-amber-50 mb-1 md:mb-3 capitalize">Jasa Sewa Drone<br /> Videografer dan Fotografer Solo</h1>
-          <p className="text-sm md:text-base h-auto text-wrap w-full md:max-w-6xl px-6 text-white  shadow-blue-50 mb-8 md:mx-80 md:px-60 md:font-light font-extralight">
+          <h1 className= { `${ITCAvanatGardeStdBold.className} text-2xl md:text-5xl text-balance font-extrabold leading-tight text-white text-shadow-amber-50 mb-1 md:mb-3 capitalize`}>Jasa Sewa Drone<br /> Videografer dan Fotografer Solo</h1>
+          <p className={` ${ITCAvanatGardeStd.className} text-sm md:text-base h-auto text-wrap w-full md:max-w-6xl px-6 text-white  shadow-blue-50 mb-8 md:mx-80 md:px-60 md:font-extralight font-extralight`}>
             Dokumentasi Drone | Event | Company Profile | Perpisahan Sekolah | Wedding <br />| Pemetaan Lahan | Video Marketing
           </p>
           <div className="flex gap-5 flex-col  md:flex-row">

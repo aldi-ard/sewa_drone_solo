@@ -75,9 +75,9 @@ export default function TestimoniPage() {
   return (
     <section className="relative bg-fuchsia-500 max-h-1/6 py-14 overflow-hidden">
       {/* GRADIENT KIRI */}
-      <div className="pointer-events-none absolute left-0 top-0 h-full   w-12 md:w-48  bg-linear-to-r from-fuchsia-400 to-transparent z-10" />
+      <div className="pointer-events-none absolute left-0 top-0 h-full   w-12 md:w-48  bg-linear-to-r from-fuchsia-300 to-transparent z-10" />
       {/* GRADIENT KANAN */}
-      <div className="pointer-events-none absolute right-0 top-0 h-full   w-12 md:w-48  bg-linear-to-l from-fuchsia-400 to-transparent z-10" />
+      <div className="pointer-events-none absolute right-0 top-0 h-full   w-12 md:w-48  bg-linear-to-l from-fuchsia-300 to-transparent z-10" />
 
       <div className="max-w-8xl mx-auto md:px-20 px-20">
         {/* HEADING */}

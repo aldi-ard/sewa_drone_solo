@@ -1,5 +1,6 @@
 import { ReactNode } from "react"
 import Link from "next/link"
+import { ITCAvanatGardeStd, ITCAvanatGardeStdLight } from "@/app/style/fonts"
 
 type CardProps = {
   title: string;
@@ -21,7 +22,7 @@ function CardSosmed({title, logo, description, color, bgcolor, link,cta}: CardPr
         <h2>{title}</h2>
       </div>
 
-      <div className="mt-auto w-full text-sm text-center min-h-10 font-extralight text-gray-800">
+      <div className={`mt-auto w-full text-sm text-center min-h-10 font-extralight text-gray-800 ${ITCAvanatGardeStdLight.className}`}>
         <p>{description}</p>
       </div>
       <div className="mt-auto w-full text-sm mx-auto min-h-10 font-extralight text-gray-800">

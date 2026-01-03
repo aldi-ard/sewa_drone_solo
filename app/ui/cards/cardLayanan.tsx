@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import { ITCAvanatGardeStd, ITCAvanatGardeStdLight } from "@/app/style/fonts"
 type CardProps = {
   title: string
   image?: string
@@ -22,11 +22,11 @@ export default function Card({ title, description, image }: CardProps) {
       </div>
 
       <div className="w-full text-xl px-6  font-semibold text-center">
-        <h2 className="sm:text-base text-start md:text-2xl leading-relaxed">{title}</h2>
+        <h2 className={` ${ITCAvanatGardeStd.className} sm:text-base text-start md:text-2xl leading-relaxed`}>{title}</h2>
       </div>
 
-      <div className="mt-auto w-full text-sm px-6 font-light md:min-h-20 min-h-20 text-black md:text-gray-600">
-        <p className="text-sm md:text-md leading-relaxed ">{description}</p>
+      <div className="mt-auto w-full text-sm px-6 md:min-h-20 min-h-20 text-black md:text-gray-600">
+        <p className={ `${ITCAvanatGardeStdLight.className} text-sm md:text-md leading-relaxed `}>{description}</p>
       </div>
 
     </div>
