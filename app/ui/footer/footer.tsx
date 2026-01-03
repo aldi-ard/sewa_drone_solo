@@ -65,7 +65,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="max-w-6xl mx-auto px-4 border-t border-gray-500 py-8 text-center text-base capitaleze text-gray-500">
-            &copy; Copyright 2025 | dronesolo x konektastudio | All Right reserved
+            &copy; Copyright 2025 | Dronesolo | All Right reserved
           </div>
         </footer>
     )
